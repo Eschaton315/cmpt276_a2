@@ -24,6 +24,7 @@ public class SetDof2 extends AppCompatActivity {
         return new Intent(context, SetDof2.class);
     }
 
+    //set up variables
 
     lens selectedLens;
     double aperture;
@@ -67,7 +68,6 @@ public class SetDof2 extends AppCompatActivity {
 
                     final TextView DofText = (TextView) findViewById(R.id.Text_DepthField);
                     DofText.setText("Depth of Field: " + formatM(depthField / 1000) + " m");
-
 
                 } else {
                     if (aperture < selectedLens.getMaxAperture()) {
