@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity implements Serializable {
 
     }
 
-
     public void setUpDefLens() {
         lensArray.add(new lens("Canon", 1.8, 50, 1));
         lensArray.add(new lens("Tamron", 2.8, 90, 2));
@@ -69,7 +68,7 @@ public class MainActivity extends AppCompatActivity implements Serializable {
                 Toast.makeText(MainActivity.this, "Set Up DoF", Toast.LENGTH_SHORT)
                         .show();
 
-                //start up Dof setting from Assignment 1
+                //start up Dof setting from Assignment1
 
                 Intent intentDoF = SetUpDof.makeIntent(MainActivity.this);
                 intentDoF.putExtra(EXTRA_ARR, (Serializable) lensArray);
