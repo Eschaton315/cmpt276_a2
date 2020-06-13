@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity implements Serializable {
                 Toast.makeText(MainActivity.this, "Set Up DoF", Toast.LENGTH_SHORT)
                         .show();
 
-                //start up Dof setting from A1
+                //start up Dof setting from Assignment 1
 
                 Intent intentDoF = SetUpDof.makeIntent(MainActivity.this);
                 intentDoF.putExtra(EXTRA_ARR, (Serializable) lensArray);
