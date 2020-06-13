@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CMPT276A2</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="lens">Lens</string>
+    <string name="dof">Depth of Field</string>
+    <string name="insert_lens_spec">Insert Lens Spec</string>
+    <string name="lens_name">Lens Name</string>
+    <string name="available_lens">Available Lens:</string>
+    <string name="max_apeture">F</string>
+    <string name="insert_apeture">Insert Apeture</string>
+    <string name="length">Length</string>
+    <string name="mm">mm</string>
+    <string name="set_apeture">Set Apeture (F):</string>
+    <string name="distance_to_subject_m">Distance to Subject (m):</string>
+    <string name="lens_specs">Lens Specs</string>
+    <string name="submit">Submit</string>
+</resources>

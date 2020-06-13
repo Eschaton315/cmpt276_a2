@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/item_LensBtn"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="288dp"
+            android:layout_marginRight="288dp"
+            android:text="@string/lens_name"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.023" />
+
+        <TextView
+            android:id="@+id/item_Apeture"
+            android:layout_width="165dp"
+            android:layout_height="19dp"
+            android:text="@string/insert_apeture"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.219"
+            app:layout_constraintStart_toEndOf="@+id/item_LensBtn"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/item_flength"
+            android:layout_width="164dp"
+            android:layout_height="20dp"
+            android:text="@string/length"
+            app:layout_constraintBottom_toBottomOf="@+id/item_LensBtn"
+            app:layout_constraintStart_toStartOf="@+id/item_Apeture"
+            app:layout_constraintTop_toBottomOf="@+id/item_Apeture"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</RelativeLayout>
